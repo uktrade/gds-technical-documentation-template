@@ -1,5 +1,4 @@
-venv
-.idea
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -76,6 +75,8 @@ Temporary Items
 
 # Dynamically created
 .venv
+venv
+
 
 # Project specific
 ssl.key
