@@ -1,0 +1,17 @@
+site_name: GDS Docs
+site_url: https://example.com/
+nav:
+    - Home: index.md
+    - About: about.md
+    - Markdown: markdown-cheat-sheet.md
+
+theme:
+    name: mkdocs
+    custom_dir: gds/
+    show_govuk_logo: true
+    show_cookie_banner: false
+    show_phase_banner: false
+    sticky_header_desktop: false
+    sticky_side_nav_desktop: true
+    phase: beta
+    feedback_url: https://www.gov.uk/government/organisations/department-for-international-trade

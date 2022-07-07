@@ -1,0 +1,7 @@
+---
+applications:
+- name: mkdocs-gds-dev
+  memory: 64M
+
+  buildpacks:
+  - staticfile_buildpack

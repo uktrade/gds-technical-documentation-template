@@ -1,0 +1,149 @@
+// Define defaults for govuk variables before importing the sass files
+$govuk-global-styles: true;
+$govuk-new-link-styles: true;
+
+$govuk-page-width: 1200px;
+
+@import "govuk-frontend/govuk/settings/colours-organisations";
+//@import "typography-responsive";
+
+//$dit-brand-colours: map-get(
+// $map: $govuk-colours-organisations,
+// $key: "department-for-international-trade",
+//);
+//
+//$govuk-brand-colour: map-get(
+// $map: $dit-brand-colours,
+// $key: colour,
+//);
+
+$govuk-assets-path: "../assets/";
+
+// https://design-system.service.gov.uk/styles/typography/
+//  - If your service is on the service.gov.uk subdomain you must use the GDS Transport font.
+
+// This is a reasonably fallback if you can't use GDS transport
+$govuk-font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu,
+  Roboto, "Noto Sans", "Droid Sans", sans-serif;
+
+.app-width-container {
+  @extend .govuk-width-container;
+}
+
+@import "govuk-frontend/govuk/all.scss";
+
+// DIT styles -------------------------------------------------------
+.vertical-right-border {
+  border-right: solid 1px $govuk-border-colour;
+}
+
+.govuk-header__logo {
+  width: auto;
+}
+
+.govuk-header__container {
+  // This makes the container left align in the header
+  // it is usually indented so that the nav items appear under the service name
+  .govuk-header__content {
+    width: 100%;
+    float: none;
+  }
+}
+
+@include govuk-media-query($from: desktop) {
+  .govuk-header__sticky {
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+  }
+
+  .govuk-header__navigation-item--right-desktop {
+    // Push nav items to the right on the desktop
+    float: right;
+
+    .govuk-header__navigation-item {
+      margin-right: 15px !important;
+
+      &:not(:last-child) {
+        a {
+          border-right: solid 1px;
+          padding-right: 15px;
+        }
+      }
+    }
+  }
+}
+
+// The width of a navbar (overrides the default value from _layouts.scss)
+//$app-navbar-width: 200px;
+// Can use absolute or relative sizing
+$app-navbar-width: 20%;
+
+@import "layouts";
+@import "headings";
+
+@import "subnav";
+
+@import "govuk-frontend/govuk/settings/all";
+@import "govuk-frontend/govuk/helpers/all";
+
+.app-body {
+  ul {
+    @extend .govuk-list;
+    @extend .govuk-list--bullet;
+  }
+
+  ol {
+    @extend .govuk-list;
+    @extend .govuk-list--number;
+  }
+
+  blockquote {
+    @extend .govuk-inset-text;
+    margin-left: 0;
+    padding-left: 1rem;
+  }
+
+  code {
+    //@include govuk-font(16);
+    @include govuk-font($size: 19);
+    font-family: monospace;
+    background-color: govuk-colour("light-grey");
+    color: govuk-colour("red");
+  }
+
+  // this is how a fenced code block is rendered
+  pre {
+    padding: 0.5rem;
+    background-color: govuk-colour("light-grey");
+    code {
+      @include govuk-font($size: 19);
+      color: $govuk-text-colour;
+      font-family: monospace;
+    }
+  }
+
+  table {
+    @extend .govuk-table;
+
+    thead {
+      @extend .govuk-table__head !optional;
+    }
+
+    tr {
+      @extend .govuk-table__row !optional;
+    }
+
+    th {
+      @extend .govuk-table__header;
+    }
+
+    tbody {
+      @extend .govuk-table__body !optional;
+    }
+
+    td {
+      @extend .govuk-table__cell;
+    }
+  }
+}

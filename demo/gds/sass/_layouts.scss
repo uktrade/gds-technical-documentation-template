@@ -1,0 +1,30 @@
+@import "govuk-frontend/govuk/all";
+
+$app-navbar-width: 12em !default;
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@include govuk-media-query($from: desktop) {
+  .app-container {
+    flex-direction: row;
+    gap: 2rem;
+
+    .app-navbar {
+      order: -1;
+      width: $app-navbar-width;
+
+      &.with-border {
+        border-right: solid 1px #eee;
+        margin-right: 1em;
+        margin-right: 1rem;
+      }
+    }
+
+    .app-body {
+      flex: 1;
+    }
+  }
+}
