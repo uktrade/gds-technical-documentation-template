@@ -89,3 +89,4 @@ dataworkspace/dataworkspace/static/*.css.map
 .local
 demo/gds/css
 demo/gds/assets
+demo/site
