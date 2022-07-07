@@ -1,4 +1,4 @@
-# ddatdocs
+# gds-technical-documentation-template
  
 > A GDS inspired theme for DDAT documentation
 
