@@ -186,8 +186,8 @@
 </script>
 {% if 'search' in config['plugins'] %}
     <script src="https://unpkg.com/lunr/lunr.js"></script>
-    <script src="{{ 'js/search/simple-search.js' }}"></script>
-    <script src="{{ 'js/search/search-bar.js' }}"></script>
+    <script src="{{ 'js/search/simple-search.js'|url }}"></script>
+    <script src="{{ 'js/search/search-bar.js'|url }}"></script>
     <script>
         (function () {
             const search = new SiteSearch();
