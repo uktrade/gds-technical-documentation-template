@@ -1,4 +1,4 @@
-site_name: 🔥 Firebreak
+site_name: Firebreak
 site_url: https://example.com/
 
 #plugins: [] disables all plugins
@@ -16,7 +16,7 @@ theme:
     name: mkdocs
     custom_dir: gds/
 #    custom_dir: simple_theme/
-    show_govuk_logo: false
+    show_govuk_logo: true
 
     show_cookie_banner: false
 

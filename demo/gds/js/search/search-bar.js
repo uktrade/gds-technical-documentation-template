@@ -1,12 +1,19 @@
 class SearchBar {
+  displaySearchResults(results) {
+    results.forEach((r) => {
+      console.log(r);
+    });
+  }
+
   bindEvents(searchBox) {
     searchBox.addEventListener("focus", function () {
       console.log("focus");
     });
 
-    searchBox.addEventListener("keyup", function (e) {
-      console.log("keyup", e);
-      console.log(this.value);
+    searchBox.addEventListener("keyup", (e) => {
+      console.log("keyup");
+      const results = this.search.search(e.target.value);
+      this.displaySearchResults(results);
     });
   }
 
