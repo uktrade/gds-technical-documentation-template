@@ -1,12 +1,12 @@
 $govuk-global-styles: true;
 $govuk-new-link-styles: true;
 
-$govuk-page-width: 1440px;
+$govuk-page-width: 1400px;
 
 // The width of a navbar (overrides the default value from _layouts.scss)
 //$app-navbar-width: 200px;
 // Can use absolute or relative sizing
-$app-navbar-width: 12em !default;
-//$app-navbar-width: 200px;
+$app-navbar-width: 12rem !default;
+$app-body-right-margin: 2rem;
 
 $app-gap-width: 1rem;

@@ -14,43 +14,43 @@ These are the elements outlined in John Gruber’s original design document. All
 ## H2
 ### H3
 
-### Bold
+## Bold
 
 **bold text**
 
-### Italic
+## Italic
 
 *italicized text*
 
-### Blockquote
+## Blockquote
 
 > blockquote
 
-### Ordered List
+## Ordered List
 
 1. First item
 2. Second item
 3. Third item
 
-### Unordered List
+## Unordered List
 
 - First item
 - Second item
 - Third item
 
-### Code
+## Code
 
-`code`
+this is `inline code`
 
-### Horizontal Rule
+## Horizontal Rule
 
 ---
 
-### Link
+## Link
 
 [Markdown Guide](https://www.markdownguide.org)
 
-### Image
+## Image
 
 ![alt text](https://www.markdownguide.org/assets/images/tux.png)
 
@@ -58,14 +58,14 @@ These are the elements outlined in John Gruber’s original design document. All
 
 These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.
 
-### Table
+## Table
 
 | Syntax | Description |
 | ----------- | ----------- |
 | Header | Title |
 | Paragraph | Text |
 
-### Fenced Code Block
+## Fenced Code Block
 
 ```
 {

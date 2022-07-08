@@ -30,12 +30,12 @@ $govuk-font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu,
 
 .vertical-border-right {
   border-right: solid 1px $govuk-border-colour;
-  padding-right: $app-gap-width;
 }
 
-.vertical-border-left {
-  border-left: solid 1px $govuk-border-colour;
-  padding-left: $app-gap-width;
+.search-container {
+  text-align: center;
+  margin: 0 auto 0.5rem;
+  max-width: 60rem;
 }
 
 // GDS Overrides -------------------------------------------------------
@@ -84,18 +84,24 @@ $govuk-font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu,
 @import "subnav";
 
 @import "govuk-frontend/govuk/settings/all";
-//@import "govuk-frontend/govuk/helpers/all";
 
 // if we don't nest these overrides in app-body the changes apply to navs too!
+
 .app-body {
+  img {
+    max-width: 100%;
+  }
+
   ul {
     @extend .govuk-list;
     @extend .govuk-list--bullet;
+    padding-left: 4rem;
   }
 
   ol {
     @extend .govuk-list;
     @extend .govuk-list--number;
+    padding-left: 4rem;
   }
 
   blockquote {
@@ -116,6 +122,7 @@ $govuk-font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu,
   pre {
     padding: 0.5rem;
     background-color: govuk-colour("light-grey");
+
     code {
       @include govuk-font($size: 19);
       color: $govuk-text-colour;
