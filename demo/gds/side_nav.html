@@ -1,0 +1,28 @@
+<nav class="app-subnav">
+    {% macro nav_item(item) %}
+        <li class="app-subnav__section-item {% if item.active and not item.children %}app-subnav__section-item--current{% endif %}">
+            {% if item.children %}
+                {{ item.title }}
+            {% else %}
+                <a href="{{ item.url|url }}"
+                   class="app-subnav__link govuk-link app-subnav__link-no-colour">
+                    {{ item.title }}
+                </a>
+            {% endif %}
+            {% if item.children %}
+                <ul class="app-subnav__section app-subnav__section--nested">
+                    {%- for child in item.children %}
+                        {{- nav_item(child) }}
+                    {%- endfor %}
+                </ul>
+            {% endif %}
+        </li>
+
+    {%- endmacro %}
+    <ul class="app-subnav__section">
+        {%- for item in nav %}
+            {{ nav_item(item) }}
+        {%- endfor %}
+
+    </ul>
+</nav>

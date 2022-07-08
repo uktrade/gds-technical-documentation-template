@@ -1,8 +1,4 @@
-// Define defaults for govuk variables before importing the sass files
-$govuk-global-styles: true;
-$govuk-new-link-styles: true;
-
-$govuk-page-width: 1200px;
+@import "variables";
 
 @import "govuk-frontend/govuk/settings/colours-organisations";
 //@import "typography-responsive";
@@ -32,11 +28,17 @@ $govuk-font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu,
 
 @import "govuk-frontend/govuk/all.scss";
 
-// DIT styles -------------------------------------------------------
-.vertical-right-border {
+.vertical-border-right {
   border-right: solid 1px $govuk-border-colour;
+  padding-right: $app-gap-width;
 }
 
+.vertical-border-left {
+  border-left: solid 1px $govuk-border-colour;
+  padding-left: $app-gap-width;
+}
+
+// GDS Overrides -------------------------------------------------------
 .govuk-header__logo {
   width: auto;
 }
@@ -52,9 +54,11 @@ $govuk-font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu,
 
 @include govuk-media-query($from: desktop) {
   .govuk-header__sticky {
-    position: sticky;
-    top: 0;
-    z-index: 10000;
+    .govuk-header {
+      position: sticky;
+      top: 0;
+      z-index: 10000;
+    }
   }
 
   .govuk-header__navigation-item--right-desktop {
@@ -74,19 +78,15 @@ $govuk-font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu,
   }
 }
 
-// The width of a navbar (overrides the default value from _layouts.scss)
-//$app-navbar-width: 200px;
-// Can use absolute or relative sizing
-$app-navbar-width: 20%;
-
 @import "layouts";
 @import "headings";
 
 @import "subnav";
 
 @import "govuk-frontend/govuk/settings/all";
-@import "govuk-frontend/govuk/helpers/all";
+//@import "govuk-frontend/govuk/helpers/all";
 
+// if we don't nest these overrides in app-body the changes apply to navs too!
 .app-body {
   ul {
     @extend .govuk-list;

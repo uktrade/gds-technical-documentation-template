@@ -36,7 +36,11 @@
     <meta property="og:image" content="&lt;YOUR-DOMAIN&gt;/images/govuk-opengraph-image.png">
 </head>
 
-<body class="govuk-template__body app-body-class" data-test="My value" data-other="report:details">
+<body class="govuk-template__body app-body-class
+    {%- if config.theme.sticky_side_nav_desktop %} app-navbar__sticky{%- endif %}
+    {%- if config.theme.sticky_header_desktop %} govuk-header__sticky{%- endif %}
+    {%- if config.theme.sticky_header_desktop and config.theme.sticky_side_nav_desktop %} sticky-both{%- endif %}
+">
 <script>
     document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');
 </script>
@@ -73,7 +77,7 @@
 {%- endblock %}
 
 <a href="#main-content" class="govuk-skip-link" data-module="govuk-skip-link">Skip to main content</a>
-<header class="govuk-header{% if config.theme.sticky_header_desktop %} govuk-header__sticky{% endif %}" role="banner"
+<header class="govuk-header" role="banner"
         data-module="govuk-header">
     <div class="govuk-header__container app-width-container">
         {% if config.theme.show_govuk_logo %}
@@ -98,39 +102,20 @@
                 </a>
             </div>
         {% endif %}
+
+
         <div class="govuk-header__content">
             <a href="{{ nav.homepage.url|url }}" class="govuk-header__link govuk-header__service-name">
                 {{ config.site_name }}
             </a>
-            {%- block site_nav %}
-                <nav aria-label="Menu" class="govuk-header__navigation ">
-                    <button type="button" class="govuk-header__menu-button govuk-js-header-toggle"
-                            aria-controls="navigation" aria-label="Show or hide menu">Menu
-                    </button>
 
-                    <ul id="navigation" class="govuk-header__navigation-list">
-                        {%- if nav|length>1 %}
-                            {%- for nav_item in nav %}
-                                <li class="govuk-header__navigation-item {% if nav_item.active %} govuk-header__navigation-item--active{% endif %}">
-                                    <a href="{{ nav_item.url|url }}" class="govuk-header__link">{{ nav_item.title }}</a>
-                                </li>
-                            {%- endfor %}
-                        {%- endif %}
-
-                        {%- block search_button %}
-                            {%- if 'search' in config['plugins'] %}
-                                <span class="govuk-header__navigation-item--right-desktop">
-                                    <li class="govuk-header__navigation-item ">
-                                        <a href="#" class="govuk-header__link" data-toggle="modal"
-                                           data-target="#mkdocs_search_modal">
-                                            <i class="fa fa-search"></i> {% trans %}Search{% endtrans %}
-                                        </a>
-                                    </li>
-                                </span>
-                            {%- endif %}
-                        {%- endblock %}
-                    </ul>
-                </nav>
+            {%- block search_button %}
+                {%- if 'search' in config['plugins'] %}
+                    <a href="#" class="govuk-header__link" data-toggle="modal"
+                       data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> {% trans %}Search{% endtrans %}
+                    </a>
+                {%- endif %}
             {%- endblock %}
         </div>
     </div>
@@ -162,7 +147,12 @@
                 <div class="app-body">
                     {% include "content.html" %}
                 </div>
-                <div class="app-navbar vertical-right-border {% if config.theme.sticky_side_nav_desktop %} app-navbar__sticky{% endif %}">
+                <div class="app-navbar vertical-border-right ">
+                    {% block site_nav %}
+                        {% include "side_nav.html" %}
+                    {% endblock %}
+                </div>
+                <div class="app-toc vertical-border-left">
                     {% include "toc.html" %}
                 </div>
             </div>
