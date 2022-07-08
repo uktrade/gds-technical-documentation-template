@@ -43,12 +43,12 @@
 
 {%- block cookie_banner %}
     {%- if config.theme.show_cookie_banner %}
-        <div class="govuk-cookie-banner " data-nosnippet role="region" aria-label="Cookies on [name of service]">
+        <div class="govuk-cookie-banner " data-nosnippet role="region" aria-label="Cookies on {{ config.site_name }}">
             <div class="govuk-cookie-banner__message govuk-width-container">
 
                 <div class="govuk-grid-row">
                     <div class="govuk-grid-column-two-thirds">
-                        <h2 class="govuk-cookie-banner__heading govuk-heading-m">Cookies on [name of service]</h2>
+                        <h2 class="govuk-cookie-banner__heading govuk-heading-m">Cookies on {{ config.site_name }}</h2>
                         <div class="govuk-cookie-banner__content">
                             <p class="govuk-body">We use some essential cookies to make this service work.</p>
                             <p class="govuk-body">We'd also like to use analytics cookies so we can understand how you
@@ -156,8 +156,6 @@
         {% endif %}
     {%- endblock %}
 
-
-
     <main class="govuk-main-wrapper app-main-class" id="main-content" role="main">
         {%- block content %}
             <div class="app-container">
@@ -199,6 +197,8 @@
     </footer>
 {%- endblock %}
 <script src="{{ 'js/all.js'|url }}"></script>
+
+{% if 'search' in config['plugins'] %}{%- include "search-modal.html" %}{% endif %}
 </body>
 
 </html>
