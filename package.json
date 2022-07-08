@@ -18,7 +18,7 @@
     "url": "https://github.com/uktrade/gds-technical-documentation-template"
   },
   "author": "Mark Higham",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "govuk-frontend": "^4.2.0"
   },
