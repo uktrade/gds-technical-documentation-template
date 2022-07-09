@@ -102,9 +102,16 @@
 
             {%- block search_button %}
                 {%- if 'search' in config['plugins'] %}
-                    <div class="search-container">
-                        <input id="simpleSearchBox" type="search" class="govuk-input"
-                               placeholder="search (not working - wip!)"/>
+                    <div class="search-wrapper">
+                        <div class="search-container">
+                            <input id="simpleSearchBox" type="search" class="govuk-input search-input"
+                                   placeholder="search (not working - wip!)"/>
+
+                            <div class="search-results-container">
+                                <div class="search-results" id="searchResults">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 {%- endif %}
             {%- endblock %}
@@ -192,7 +199,8 @@
         (function () {
             const search = new SiteSearch();
             const searchBox = document.getElementById("simpleSearchBox");
-            const searchBar = new SearchBar(search, searchBox);
+            const searchResults = document.getElementById("searchResults");
+            const searchBar = new SearchBar(search, searchBox, searchResults);
         })()
     </script>
 {% endif %}

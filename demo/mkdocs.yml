@@ -15,8 +15,7 @@ nav:
 theme:
     name: mkdocs
     custom_dir: gds/
-#    custom_dir: simple_theme/
-    show_govuk_logo: true
+    show_govuk_logo: false
 
     show_cookie_banner: false
 
