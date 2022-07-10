@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.1'
+VERSION = '0.0.3'
 
 setup(
     name="mkdocs-gds",
@@ -14,7 +14,7 @@ setup(
     include_package_data=True,
     entry_points={
         'mkdocs.themes': [
-            'themename = mkdocs-gds',
+            'gds = mkdocs_gds',
         ]
     },
     zip_safe=False
