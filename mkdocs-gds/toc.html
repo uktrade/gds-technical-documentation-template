@@ -1,0 +1,23 @@
+<nav class="app-subnav">
+    {% macro toc_item(item) %}
+        {%- if item.level <= config.theme.navigation_depth %}
+            <li class="app-subnav__section-item" data-level="{{ item.level }}"><a href="{{ item.url }}"
+                                                                                  class="app-subnav__link govuk-link app-subnav__link-no-colour">{{ item.title }}</a>
+                {% if item.children %}
+                    <ul class="app-subnav__section app-subnav__section--nested">
+                        {%- for child in item.children %}
+                            {{- toc_item(child) }}
+                        {%- endfor %}
+                    </ul>
+                {% endif %}
+            </li>
+        {%- endif %}
+    {%- endmacro %}
+    <ul class="app-subnav__section">
+        {%- for item in page.toc %}
+            {{ toc_item(item) }}
+        {%- endfor %}
+
+    </ul>
+</nav>
+

@@ -1,0 +1,113 @@
+@import "variables";
+
+@import "govuk-frontend/govuk/settings/colours-organisations";
+//@import "typography-responsive";
+
+//$dit-brand-colours: map-get(
+// $map: $govuk-colours-organisations,
+// $key: "department-for-international-trade",
+//);
+//
+//$govuk-brand-colour: map-get(
+// $map: $dit-brand-colours,
+// $key: colour,
+//);
+
+$govuk-assets-path: "../assets/";
+
+// https://design-system.service.gov.uk/styles/typography/
+//  - If your service is on the service.gov.uk subdomain you must use the GDS Transport font.
+
+// This is a reasonably fallback if you can't use GDS transport
+$govuk-font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu,
+  Roboto, "Noto Sans", "Droid Sans", sans-serif;
+
+.app-width-container {
+  @extend .govuk-width-container;
+}
+
+@import "govuk-frontend/govuk/all.scss";
+
+.vertical-border-right {
+  border-right: solid 1px $govuk-border-colour;
+}
+
+@import "search";
+@import "gds_overrides_global";
+
+@import "layouts";
+@import "headings";
+
+@import "subnav";
+
+@import "govuk-frontend/govuk/settings/all";
+
+// if we don't nest these overrides in app-body the changes apply to navs too!
+
+.app-body {
+  img {
+    max-width: 100%;
+  }
+
+  ul {
+    @extend .govuk-list;
+    @extend .govuk-list--bullet;
+    padding-left: 4rem;
+  }
+
+  ol {
+    @extend .govuk-list;
+    @extend .govuk-list--number;
+    padding-left: 4rem;
+  }
+
+  blockquote {
+    @extend .govuk-inset-text;
+    margin-left: 0;
+    padding-left: 1rem;
+  }
+
+  code {
+    //@include govuk-font(16);
+    @include govuk-font($size: 19);
+    font-family: monospace;
+    background-color: govuk-colour("light-grey");
+    color: govuk-colour("red");
+  }
+
+  // this is how a fenced code block is rendered
+  pre {
+    padding: 0.5rem;
+    background-color: govuk-colour("light-grey");
+
+    code {
+      @include govuk-font($size: 19);
+      color: $govuk-text-colour;
+      font-family: monospace;
+    }
+  }
+
+  table {
+    @extend .govuk-table;
+
+    thead {
+      @extend .govuk-table__head !optional;
+    }
+
+    tr {
+      @extend .govuk-table__row !optional;
+    }
+
+    th {
+      @extend .govuk-table__header;
+    }
+
+    tbody {
+      @extend .govuk-table__body !optional;
+    }
+
+    td {
+      @extend .govuk-table__cell;
+    }
+  }
+}

@@ -1,0 +1,3 @@
+recursive-include mkdocs-gds *.ico *.js *.css *.png *.html *.eot *.svg *.ttf *.woff
+recursive-exclude * __pycache__ demo
+recursive-exclude * *.py[co]
