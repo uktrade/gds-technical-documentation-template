@@ -1,0 +1,43 @@
+.search-wrapper {
+  text-align: center;
+  margin: 0 auto 0.5rem auto;
+  max-width: 45rem;
+  position: relative;
+}
+
+.search-container {
+  position: absolute;
+  width: 100%;
+
+  // Big CSS hack. I'm not sure why this works!
+  margin-top: -15px;
+
+  input.search-input {
+    &:focus {
+      /* outline: 3px solid #fffffc; */
+      outline-offset: 0;
+      box-shadow: none;
+      border: none;
+      outline: none;
+    }
+  }
+
+  .search-results-container {
+    padding: 0.5rem;
+    min-height: 2rem;
+    max-height: 10rem;
+    overflow-y: scroll;
+    display: none;
+    color: black;
+    text-align: left;
+  }
+
+  &:focus-within {
+    border: solid 1px #ccc;
+    background-color: white;
+    box-shadow: 0 5px 5px #ccc;
+    .search-results-container {
+      display: block;
+    }
+  }
+}

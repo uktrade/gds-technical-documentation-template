@@ -1,0 +1,30 @@
+@import "variables";
+@import "govuk-frontend/govuk/all";
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@include govuk-media-query($from: desktop) {
+  .app-container {
+    flex-direction: row;
+    gap: $app-gap-width;
+  }
+
+  .app-container {
+    .app-navbar {
+      order: -1;
+      width: $app-navbar-width;
+    }
+
+    .app-toc {
+      width: $app-navbar-width;
+    }
+
+    .app-body {
+      flex: 1;
+      margin-right: $app-body-right-margin;
+    }
+  }
+}

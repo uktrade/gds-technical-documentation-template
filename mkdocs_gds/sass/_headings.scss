@@ -1,0 +1,14 @@
+h1 {
+  @extend .govuk-heading-l;
+}
+
+h2 {
+  @extend .govuk-heading-m;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  @extend .govuk-heading-s;
+}
