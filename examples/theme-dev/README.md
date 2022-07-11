@@ -6,11 +6,8 @@
 - Install requirements `pip install -r requirements.txt`
 - Run mkdocs `mkdocs serve --watch-theme`
 
-----
-
 ## Commands
 
 - `npm run build` will build all the css and copy files
 - `npm run build:css` just builds the css to the `src` folder **this is most useful for front end dev**
 
-## Other points
