@@ -1,6 +1,6 @@
 ---
 applications:
-- name: mkdocs-gds-dev
+- name: # ADD YOU APPLICATION NAME HERE
   memory: 64M
 
   buildpacks:

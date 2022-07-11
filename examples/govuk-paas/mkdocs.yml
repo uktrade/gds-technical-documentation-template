@@ -13,8 +13,7 @@ nav:
         - Sibling: child-of-markdown.md
 
 theme:
-    name: mkdocs
-    custom_dir: gds/
+    name: gds
     show_govuk_logo: false
 
     show_cookie_banner: false
