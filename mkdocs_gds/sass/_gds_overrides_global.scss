@@ -1,0 +1,43 @@
+// GDS Overrides -------------------------------------------------------
+.govuk-header__logo {
+  width: auto;
+}
+
+.govuk-header__container {
+  // This makes the container left align in the header
+  // it is usually indented so that the nav items appear under the service name
+  .govuk-header__content {
+    width: 100%;
+    float: none;
+  }
+}
+
+@include govuk-media-query($from: desktop) {
+  .govuk-header__content {
+    padding-left: 0;
+  }
+
+  .govuk-header__sticky {
+    .govuk-header {
+      position: sticky;
+      top: 0;
+      z-index: 10000;
+    }
+  }
+
+  .govuk-header__navigation-item--right-desktop {
+    // Push nav items to the right on the desktop
+    float: right;
+
+    .govuk-header__navigation-item {
+      margin-right: 15px !important;
+
+      &:not(:last-child) {
+        a {
+          border-right: solid 1px;
+          padding-right: 15px;
+        }
+      }
+    }
+  }
+}
