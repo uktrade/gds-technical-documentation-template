@@ -1,6 +1,0 @@
-{
-  "restartable": "rs",
-  "ignore": ["node_modules", "src"],
-  "verbose": false,
-  "ext": "js json html css"
-}
