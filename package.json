@@ -6,13 +6,13 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "copy:js": "cp node_modules/govuk-frontend/govuk/all.js demo/gds/js",
-    "copy:assets": "cp -R node_modules/govuk-frontend/govuk/assets/ demo/gds/assets",
-    "copy:theme": "cp -R demo/gds/ mkdocs_gds",
+    "copy:js": "cp node_modules/govuk-frontend/govuk/all.js src/js",
+    "copy:assets": "cp -R node_modules/govuk-frontend/govuk/assets/ src/assets",
+    "copy:theme": "cp -R src/ mkdocs_gds",
     "copy": "npm run copy:assets && npm run copy:js && npm run copy:theme",
-    "build:css": "sass demo/gds/sass:demo/gds/css --load-path=node_modules/ ",
+    "build:css": "sass -q src/sass:src/css --load-path=node_modules/ ",
     "build": "npm run build:css && npm run copy",
-    "prettier": "prettier demo/gds/sass --write"
+    "prettier": "prettier src/sass --write && prettier src/js/search"
   },
   "keywords": [],
   "repository": {
@@ -24,7 +24,6 @@
     "govuk-frontend": "^4.2.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.19",
     "prettier": "^2.7.1",
     "sass": "^1.53.0"
   }
