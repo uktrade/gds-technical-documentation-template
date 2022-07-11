@@ -12,7 +12,8 @@
     "copy": "npm run copy:assets && npm run copy:js && npm run copy:theme",
     "build:css": "sass -q src/sass:src/css --load-path=node_modules/ ",
     "build": "npm run build:css && npm run copy",
-    "prettier": "prettier src/sass --write && prettier src/js/search"
+    "prettier": "prettier src/sass --write && prettier src/js/search --write",
+    "watch:css" : "sass -q -w src/sass/:src/css/ --load-path=node_modules/"
   },
   "keywords": [],
   "repository": {

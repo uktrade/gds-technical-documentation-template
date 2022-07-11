@@ -15,13 +15,6 @@
 
 $govuk-assets-path: "../assets/";
 
-// https://design-system.service.gov.uk/styles/typography/
-//  - If your service is on the service.gov.uk subdomain you must use the GDS Transport font.
-
-// This is a reasonably fallback if you can't use GDS transport
-$govuk-font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu,
-  Roboto, "Noto Sans", "Droid Sans", sans-serif;
-
 .app-width-container {
   @extend .govuk-width-container;
 }

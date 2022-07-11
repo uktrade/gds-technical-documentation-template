@@ -1,18 +1,21 @@
 # gds-technical-documentation-template
  
-> A GDS inspired theme for DDAT documentation
+> A GDS inspired mkdocs theme
 
+## Packaging the theme
+
+Prerequisites
+- NodeJS installed via [nvm](https://github.com/nvm-sh/nvm)
 
 ```shell
-# Be sure to pip install requirements first!
-cd demo
-mkdocs serve --watch-theme
+nvm use
+npm run build
 ```
 
-### Publish github pages
-```shell
-cd demo
-mkdocs gh-deploy
-```
+`TODO` - Automate this process - See Issue https://github.com/uktrade/gds-technical-documentation-template/issues/6
+
+
+## Developing the theme 
+Refer to docs in [Developing the theme](examples/theme-dev/README.md)
 
 
