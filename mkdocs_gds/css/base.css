@@ -1,6 +1,6 @@
 @charset "UTF-8";
 a, .govuk-link {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-decoration: underline;
@@ -110,7 +110,7 @@ a:focus, .govuk-link:focus {
 }
 
 .govuk-list, .app-body ol, .app-body ul {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -193,7 +193,7 @@ a:focus, .govuk-link:focus {
 
 .govuk-heading-xl {
   color: #0b0c0c;
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
@@ -235,7 +235,7 @@ a:focus, .govuk-link:focus {
 
 .govuk-heading-l, h1 {
   color: #0b0c0c;
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
@@ -277,7 +277,7 @@ a:focus, .govuk-link:focus {
 
 .govuk-heading-m, h2 {
   color: #0b0c0c;
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
@@ -322,7 +322,7 @@ h4,
 h5,
 h6 {
   color: #0b0c0c;
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
@@ -378,7 +378,7 @@ h6 {
 }
 
 .govuk-caption-xl {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -409,7 +409,7 @@ h6 {
 }
 
 .govuk-caption-l {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -445,7 +445,7 @@ h6 {
 }
 
 .govuk-caption-m {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -476,7 +476,7 @@ h6 {
 
 .govuk-body-lead, .govuk-body-l {
   color: #0b0c0c;
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -517,7 +517,7 @@ h6 {
 
 p, .govuk-body, .govuk-body-m {
   color: #0b0c0c;
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -558,7 +558,7 @@ p, .govuk-body, .govuk-body-m {
 
 .govuk-body-s {
   color: #0b0c0c;
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -599,7 +599,7 @@ p, .govuk-body, .govuk-body-m {
 
 .govuk-body-xs {
   color: #0b0c0c;
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -836,7 +836,7 @@ p + h6,
   }
 }
 .govuk-button-group .govuk-link {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -1160,7 +1160,7 @@ p + h6,
 }
 
 .govuk-accordion__section-button {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
@@ -1225,7 +1225,7 @@ p + h6,
   display: block;
 }
 .js-enabled .govuk-accordion__show-all {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -1473,7 +1473,7 @@ p + h6,
   font-size: 14px;
   font-size: 0.875rem;
   line-height: 1.1428571429;
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-decoration: underline;
@@ -1569,7 +1569,7 @@ p + h6,
 }
 
 .govuk-breadcrumbs {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -1650,7 +1650,7 @@ p + h6,
 }
 
 .govuk-breadcrumbs__link {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-decoration: underline;
@@ -1714,7 +1714,7 @@ p + h6,
 }
 
 .govuk-button {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -1894,7 +1894,7 @@ p + h6,
 }
 
 .govuk-error-message {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
@@ -1945,7 +1945,7 @@ x:-moz-any-link {
   }
 }
 .govuk-fieldset__legend {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -1985,7 +1985,7 @@ x:-moz-any-link {
 }
 
 .govuk-fieldset__legend--xl {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
@@ -2014,7 +2014,7 @@ x:-moz-any-link {
 }
 
 .govuk-fieldset__legend--l {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
@@ -2043,7 +2043,7 @@ x:-moz-any-link {
 }
 
 .govuk-fieldset__legend--m {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
@@ -2072,7 +2072,7 @@ x:-moz-any-link {
 }
 
 .govuk-fieldset__legend--s {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
@@ -2106,7 +2106,7 @@ x:-moz-any-link {
 }
 
 .govuk-hint {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -2148,7 +2148,7 @@ x:-moz-any-link {
 }
 
 .govuk-label {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -2184,7 +2184,7 @@ x:-moz-any-link {
 }
 
 .govuk-label--xl {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
@@ -2213,7 +2213,7 @@ x:-moz-any-link {
 }
 
 .govuk-label--l {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
@@ -2242,7 +2242,7 @@ x:-moz-any-link {
 }
 
 .govuk-label--m {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
@@ -2271,7 +2271,7 @@ x:-moz-any-link {
 }
 
 .govuk-label--s {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
@@ -2303,7 +2303,7 @@ x:-moz-any-link {
 }
 
 .govuk-checkboxes__item {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -2425,7 +2425,7 @@ x:-moz-any-link {
 }
 
 .govuk-checkboxes__divider {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -2540,7 +2540,7 @@ x:-moz-any-link {
 }
 
 .govuk-textarea {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -2608,7 +2608,7 @@ x:-moz-any-link {
 }
 
 .govuk-character-count__message {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-feature-settings: "tnum" 1;
@@ -2655,7 +2655,7 @@ x:-moz-any-link {
 }
 
 .govuk-summary-list {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -2827,7 +2827,7 @@ x:-moz-any-link {
 }
 
 .govuk-input {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -2936,7 +2936,7 @@ x:-moz-any-link {
 
 .govuk-input__prefix,
 .govuk-input__suffix {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -3040,7 +3040,7 @@ x:-moz-any-link {
 }
 
 .govuk-details {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -3192,7 +3192,7 @@ x:-moz-any-link {
 }
 
 .govuk-error-summary__title {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
@@ -3227,7 +3227,7 @@ x:-moz-any-link {
 }
 
 .govuk-error-summary__body {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -3270,7 +3270,7 @@ x:-moz-any-link {
 
 .govuk-error-summary__list a {
   font-weight: 700;
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-decoration: underline;
@@ -3310,7 +3310,7 @@ x:-moz-any-link {
 }
 
 .govuk-file-upload {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -3360,7 +3360,7 @@ x:-moz-any-link {
 }
 
 .govuk-footer {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -3403,7 +3403,7 @@ x:-moz-any-link {
 }
 
 .govuk-footer__link {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-decoration: underline;
@@ -3602,7 +3602,7 @@ x:-moz-any-link {
 }
 
 .govuk-header {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -3682,7 +3682,7 @@ x:-moz-any-link {
 }
 
 .govuk-header__product-name {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -3711,7 +3711,7 @@ x:-moz-any-link {
 }
 
 .govuk-header__link {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-decoration: none;
@@ -3744,7 +3744,7 @@ x:-moz-any-link {
 }
 
 .govuk-header__link--homepage {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
@@ -3782,7 +3782,7 @@ x:-moz-any-link {
 .govuk-header__link--service-name {
   display: inline-block;
   margin-bottom: 10px;
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
@@ -3844,7 +3844,7 @@ x:-moz-any-link {
 }
 
 .govuk-header__menu-button {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -3980,7 +3980,7 @@ x:-moz-any-link {
   }
 }
 .govuk-header__navigation-item a {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
@@ -4037,7 +4037,7 @@ x:-moz-any-link {
   }
 }
 .govuk-inset-text, .app-body blockquote {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -4094,7 +4094,7 @@ x:-moz-any-link {
 }
 
 .govuk-notification-banner {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -4143,7 +4143,7 @@ x:-moz-any-link {
 }
 
 .govuk-notification-banner__title {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
@@ -4197,7 +4197,7 @@ x:-moz-any-link {
 }
 
 .govuk-notification-banner__heading {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
@@ -4227,7 +4227,7 @@ x:-moz-any-link {
 }
 
 .govuk-notification-banner__link {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-decoration: underline;
@@ -4320,7 +4320,7 @@ x:-moz-any-link {
 .govuk-pagination__item,
 .govuk-pagination__next,
 .govuk-pagination__prev {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -4464,7 +4464,7 @@ x:-moz-any-link {
 }
 
 .govuk-pagination__link-label {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -4559,7 +4559,7 @@ x:-moz-any-link {
 }
 
 .govuk-panel {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -4613,7 +4613,7 @@ x:-moz-any-link {
 .govuk-panel__title {
   margin-top: 0;
   margin-bottom: 30px;
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
@@ -4645,7 +4645,7 @@ x:-moz-any-link {
 }
 
 .govuk-panel__body {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -4681,7 +4681,7 @@ x:-moz-any-link {
   letter-spacing: 1px;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
@@ -4764,7 +4764,7 @@ x:-moz-any-link {
 }
 
 .govuk-phase-banner__content {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -4824,7 +4824,7 @@ x:-moz-any-link {
 }
 
 .govuk-tabs__title {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -4871,7 +4871,7 @@ x:-moz-any-link {
 }
 
 .govuk-tabs__list-item {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -4911,7 +4911,7 @@ x:-moz-any-link {
 }
 
 .govuk-tabs__tab {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-decoration: underline;
@@ -5067,7 +5067,7 @@ x:-moz-any-link {
 }
 
 .govuk-radios__item {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -5198,7 +5198,7 @@ x:-moz-any-link {
 }
 
 .govuk-radios__divider {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -5316,7 +5316,7 @@ x:-moz-any-link {
 }
 
 .govuk-select {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -5380,7 +5380,7 @@ x:-moz-any-link {
   -webkit-clip-path: inset(50%) !important;
   clip-path: inset(50%) !important;
   white-space: nowrap !important;
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-decoration: underline;
@@ -5458,7 +5458,7 @@ x:-moz-any-link {
 }
 
 .govuk-table, .app-body table {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -5514,7 +5514,7 @@ x:-moz-any-link {
 }
 
 .govuk-table__cell--numeric {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-feature-settings: "tnum" 1;
@@ -5552,7 +5552,7 @@ x:-moz-any-link {
 }
 
 .govuk-table__caption--xl {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
@@ -5581,7 +5581,7 @@ x:-moz-any-link {
 }
 
 .govuk-table__caption--l {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
@@ -5610,7 +5610,7 @@ x:-moz-any-link {
 }
 
 .govuk-table__caption--m {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
@@ -5639,7 +5639,7 @@ x:-moz-any-link {
 }
 
 .govuk-table__caption--s {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
@@ -5692,7 +5692,7 @@ x:-moz-any-link {
 }
 
 .govuk-warning-text__icon {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
@@ -5734,7 +5734,7 @@ x:-moz-any-link {
 }
 
 .govuk-warning-text__text {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
@@ -7056,7 +7056,7 @@ x:-moz-any-link {
 }
 
 .app-subnav {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -7139,7 +7139,7 @@ x:-moz-any-link {
   margin: 0;
   padding: 10px 15px 10px 0;
   color: #505a5f;
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -7180,7 +7180,7 @@ x:-moz-any-link {
   padding-left: 1rem;
 }
 .app-body code {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -7214,7 +7214,7 @@ x:-moz-any-link {
   background-color: #f3f2f1;
 }
 .app-body pre code {
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu, Roboto, "Noto Sans", "Droid Sans", sans-serif;
+  font-family: arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;

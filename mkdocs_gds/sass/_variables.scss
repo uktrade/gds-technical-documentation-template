@@ -10,3 +10,12 @@ $app-navbar-width: 12rem !default;
 $app-body-right-margin: 2rem;
 
 $app-gap-width: 1rem;
+
+// https://design-system.service.gov.uk/styles/typography/
+//  - If your service is on the service.gov.uk subdomain you must use the GDS Transport font.
+
+// This is a reasonably fallback if you can't use GDS transport
+//$govuk-font-family: system-ui, -apple-system, system-ui, "Segoe UI", Ubuntu,
+//  Roboto, "Noto Sans", "Droid Sans", sans-serif;
+
+$govuk-font-family: arial, sans-serif;

@@ -161,6 +161,7 @@
 </div>
 
 {%- block footer %}
+    {% if config.theme.show_footer %}
     <footer class="govuk-footer " role="contentinfo">
         <div class="govuk-width-container ">
             <div class="govuk-footer__meta">
@@ -184,6 +185,7 @@
             </div>
         </div>
     </footer>
+    {% endif %}
 {%- endblock %}
 <script src="{{ 'js/all.js'|url }}"></script>
 <script>GOVUKFrontend.initAll();</script>
