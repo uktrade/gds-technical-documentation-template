@@ -1,40 +1,121 @@
-# 🔥 GDS and mkdocs
+# Markdown Cheat Sheet
+
+Thanks for visiting [The Markdown Guide](https://www.markdownguide.org)!
+
+This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for [basic syntax](https://www.markdownguide.org/basic-syntax) and [extended syntax](https://www.markdownguide.org/extended-syntax).
+
+## Basic Syntax
+
+These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.
+
+### Heading
+
+# H1
+## H2
+### H3
+
+## Bold
+
+**bold text**
+
+## Italic
+
+*italicized text*
+
+## Blockquote
+
+> blockquote
+
+## Ordered List
+
+1. First item
+2. Second item
+3. Third item
+
+## Unordered List
+
+- First item
+- Second item
+- Third item
+
+## Code
+
+this is `inline code`
+
+## Horizontal Rule
+
+---
+
+## Link
+
+[Markdown Guide](https://www.markdownguide.org)
+
+## Image
+
+![alt text](https://www.markdownguide.org/assets/images/tux.png)
+
+## Extended Syntax
+
+These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.
+
+## Table
+
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+## Fenced Code Block
+
+```
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+
+### Footnote
+
+Here's a sentence with a footnote. [^1]
+
+[^1]: This is the footnote.
+
+### Heading ID
+
+### My Great Heading {#custom-id}
+
+### Definition List
+_not supported in mkdocs_
+
+term
+: definition
 
 
-> GOV.UK Design System Template for MKDocs for our Open Source projects, and deployed on GOV.UK PaaS
- 
+### Strikethrough
 
-## The proposal
+~~The world is flat.~~
 
+### Task List
 
-We have a few projects in our [GitHub organisation](https://github.com/uktrade/) that are/can be useful to the public in general.
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
 
-We can have information in their READMEs, which is "ok", but so far no consistent way of something a bit beefier. This project is to
+### Emoji
 
-1. make a template mostly using the GOV.UK Design System for MKDocs
-2. use it for one of the open source projects (to make sure that the template is fit for purpose)
-3. make it deployable on GOV.UK PaaS (to make sure that it's deployable on regular/authorised infrastructure without too much trouble)
+That is so funny! :joy:
 
-[HTTPX](https://www.python-httpx.org/) to me seems like a good set of docs to be inspired by, as well as the docs for the design system itself https://design-system.service.gov.uk/
+(See also [Copying and Pasting Emoji](https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji))
 
-Note that the design system docs themselves use elements not in the design system. Think we have to be free to do that.
+### Highlight
 
-[Note a Ruby version of this exists](https://github.com/alphagov/tech-docs-template), but I think there is value in an MKDocs/Python version.
+I need to highlight these ==very important words==.
 
-I suggest a very iterative approach
+### Subscript
 
-- get a shockingly basic template going, 
-- make documentation say with just 1 line of content, 
-- and deploy on PaaS (with just a cf push). So from day 1 (ish), we have aspects of all 1, 2 and 3, and we'll out very early on if there is something wrong with the plan and we'll need to change it.
+H~2~O
 
-## The benefits
+### Superscript
 
-We'll have a constent way of documenting our open source projects, and this could also be used by Other Government Departments as well
-
-## The skills needed#
-1 developer with experience of HTML and CSS
-
-## The amount of people needed#
-1
-
-![alt text](img/library-books.jpeg)
+X^2^

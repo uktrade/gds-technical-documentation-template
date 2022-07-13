@@ -1,6 +1,6 @@
 {
   "name": "gds-technical-documentation-template",
-  "version": "0.0.4",
+  "version": "0.0.7",
   "description": "A GDS inspired theme for DDAT documentation",
   "main": "index.js",
   "private": true,

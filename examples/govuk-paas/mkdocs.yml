@@ -1,26 +1,17 @@
 site_name: Firebreak
 site_url: https://example.com/
 
-#plugins: [] disables all plugins
-
+plugins: [] disables all plugins
 
 nav:
     - Home: index.md
-    - Lorem Ipsum: about.md
-    - Markdown Test: markdown-cheat-sheet.md
-    - Child Test:
-        - Child: child-of-markdown.md
-        - Sibling: child-of-markdown.md
 
 theme:
     name: gds
     show_govuk_logo: false
 
     show_cookie_banner: false
-
     show_phase_banner: false
-    phase: beta
-    feedback_url: https://www.gov.uk/government/organisations/department-for-international-trade
 
     sticky_header_desktop: true
     sticky_side_nav_desktop: true
