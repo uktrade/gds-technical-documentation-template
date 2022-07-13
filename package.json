@@ -1,6 +1,6 @@
 {
   "name": "gds-technical-documentation-template",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A GOV.UK Design System inspired mkdocs theme for DDAT documentation",
   "main": "index.js",
   "private": true,
@@ -13,7 +13,7 @@
     "build:css": "sass -q src/sass:src/css --load-path=node_modules/ ",
     "build": "npm run build:css && npm run copy",
     "prettier": "prettier src/sass --write && prettier src/js/search --write",
-    "watch:css" : "sass -q -w src/sass/:src/css/ --load-path=node_modules/"
+    "watch:css": "sass -q -w src/sass/:src/css/ --load-path=node_modules/"
   },
   "keywords": [],
   "repository": {
