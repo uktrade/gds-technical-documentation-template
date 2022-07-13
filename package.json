@@ -1,6 +1,6 @@
 {
   "name": "gds-technical-documentation-template",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A GOV.UK Design System inspired mkdocs theme for DDAT documentation",
   "main": "index.js",
   "private": true,
