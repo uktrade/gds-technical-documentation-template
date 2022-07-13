@@ -1,16 +1,11 @@
-site_name: Firebreak
+site_name: Theme Dev
 site_url: https://example.com/
 
 #plugins: [] disables all plugins
 
-
 nav:
     - Home: index.md
-    - Lorem Ipsum: about.md
-    - Markdown Test: markdown-cheat-sheet.md
-    - Child Test:
-        - Child: child-of-markdown.md
-        - Sibling: child-of-markdown.md
+    - About: about.md
 
 theme:
     name: mkdocs
