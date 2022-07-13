@@ -1,7 +1,7 @@
 {
   "name": "gds-technical-documentation-template",
   "version": "0.0.7",
-  "description": "A GDS inspired theme for DDAT documentation",
+  "description": "A GOV.UK Design System inspired mkdocs theme for DDAT documentation",
   "main": "index.js",
   "private": true,
   "scripts": {
@@ -19,7 +19,10 @@
   "repository": {
     "url": "https://github.com/uktrade/gds-technical-documentation-template"
   },
-  "author": "Mark Higham",
+  "author": {
+    "name": "Mark Higham",
+    "email": "mark.higham@ditigal.trade.gov.uk"
+  },
   "license": "MIT",
   "dependencies": {
     "govuk-frontend": "^4.2.0"

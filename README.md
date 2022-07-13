@@ -1,19 +1,12 @@
 # gds-technical-documentation-template
  
-> A GDS inspired mkdocs theme
+> A GOV.UK Design System inspired mkdocs theme
 
-## Packaging the theme
-
-Prerequisites
-- NodeJS installed via [nvm](https://github.com/nvm-sh/nvm)
+## Install with pip
 
 ```shell
-nvm use
-npm run build
+pip install mkdocs-gds
 ```
-
-`TODO` - Automate this process - See Issue https://github.com/uktrade/gds-technical-documentation-template/issues/6
-
 
 ## Developing the theme 
 Refer to docs in [Developing the theme](examples/theme-dev/README.md)

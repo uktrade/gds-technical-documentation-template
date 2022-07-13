@@ -2,4 +2,6 @@ recursive-include mkdocs_gds *.ico *.js *.css *.png *.html *.eot *.svg *.ttf *.w
 recursive-include mkdocs_gds *.ttf *.woff *.woff2 LICENSE*
 recursive-exclude * __pycache__ demo
 recursive-exclude * *.py[co]
-
+include LICENSE
+include package.json
+include README.md
