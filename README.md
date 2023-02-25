@@ -1,3 +1,7 @@
+This project will not be developed further. See https://github.com/ministryofjustice/mkdocs-tech-docs-template for an alternative
+
+---
+
 # gds-technical-documentation-template
  
 > A GOV.UK Design System inspired mkdocs theme
